@@ -1,0 +1,36 @@
+/* .updateStatus{
+    text-align: center;
+} */
+/* Inside homepage.css */
+
+.updateStatus {
+    position: relative;
+  }
+  
+  .updateStatus h2 {
+    position: relative;
+    overflow: hidden; /* Hide the overflow to prevent the moving text from being visible outside the h2 element */
+  }
+  
+  .updateStatus h2::after {
+    content: "..."; /* The dot */
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .updateStatus h2 span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  

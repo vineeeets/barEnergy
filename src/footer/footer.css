@@ -1,0 +1,22 @@
+/* homepage.css (or footer.css) */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+.mail{
+    color: white;
+}  
+.phone{
+    color: white;
+}
