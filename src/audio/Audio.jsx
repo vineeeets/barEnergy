@@ -18,42 +18,50 @@ const products = [
   {
     image: barAirImage,
     title: 'Bar Air',
-    description: 'Music All Around, True Wireless Earbuds'
+    description: 'Music All Around, True Wireless Earbuds',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barAir2Image,
     title: 'Bar Air2',
-    description: '12.4mm Extra Large Driver, Enco Master Equalizer'
+    description: '12.4mm Extra Large Driver, Enco Master Equalizer',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barBudsImage,
     title: 'Bar Buds',
-    description: '12.4mm Extra Large Driver, Enco Master Equalizer'
+    description: '12.4mm Extra Large Driver, Enco Master Equalizer',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barClassicNeckbandImage,
     title: 'Bar Classic NeckBand',
-    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver'
+    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barClassicSportsNeckbandImage,
     title: 'Bar Classic Sports NeckBand',
-    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver'
+    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barEchoNeckbandImage,
     title: 'Bar Echo NeckBand',
-    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver'
+    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barNeckbandImage,
     title: 'Bar Neckband',
-    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver'
+    description: 'HiFi 5 DSP, 13.4mm Large Composite Driver',
+    price: '₹ 349/piece Min 10 Qty'
   },
   {
     image: barSportsNeckbandImage,
     title: 'Bar Sports Neckband',
-    description: '12.4mm Extra Large Driver, Enco Master Equalizer'
+    description: '12.4mm Extra Large Driver, Enco Master Equalizer',
+    price: '₹ 349/piece Min 10 Qty'
   }
 ];
 
@@ -105,6 +113,7 @@ const Audio = () => {
                   image={product.image}
                   title={product.title}
                   description={product.description}
+                  price={product.price}
                 />
               ))
             ) : (
